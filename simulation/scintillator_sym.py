@@ -15,7 +15,7 @@ from matplotlib import pyplot as plt
 SINGLES_RATE = 200          # Hz per paddle
 TRIPLE_RATE  =  0.1         # Hz   (sovrastimato)
 JITTER_NS    =  2           # RMS ns between paddles
-SERIAL_PORT  = "/dev/ttyUSB0"      # COM3 on windows !!!!!!!
+SERIAL_PORT  = "/dev/tty0"      # COM3 on windows !!!!!!!
 # ---------------------------------
 SAMPLE_NS   = 1e9           # 1 GHz
 TAU_RISE    =  5e-9         # 5 ns
